@@ -1,0 +1,257 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'League Spartan', sans-serif;
+  position: relative;
+}
+/* Title */
+.container .description h2{
+  color: hsl(300, 43%, 22%);
+  font-size: 45px;
+  margin: 4rem 0 1rem 10rem;
+  width: 300px;
+  line-height: 2.5rem;
+}
+/* Paragraph */
+.container .description p{
+  width: 400px;
+  color:hsl(303, 10%, 53%);
+  margin: 0 0 0 10rem;
+  line-height: 1.5rem;
+}
+/* Up Side Bar */
+.container .sidebar .up{
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 420px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+  right: 13rem;
+}
+/* Stars */
+.container .sidebar .up .img1{
+  position: absolute;
+  right: 370px;
+}
+.container .sidebar .up .img2{
+  position: absolute;
+  right: 340px;
+}
+.container .sidebar .up .img3{
+  position: absolute;
+  right: 310px;
+}
+.container .sidebar .up .img4{
+  position: absolute;
+  right: 280px;
+}
+.container .sidebar .up .img5{
+  position: absolute;
+  right: 250px;
+}
+/* Span */
+.container .sidebar .up span{
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  position: absolute;
+  right: 2rem;
+}
+/* Middle Side Bar */
+.container .sidebar .middle {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 420px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 5rem;
+  right: 10rem
+}
+/* stars */
+.container .sidebar .middle .img1{
+  position: absolute;
+  right: 380px;
+}
+.container .sidebar .middle .img2{
+  position: absolute;
+  right: 350px;
+}
+.container .sidebar .middle .img3{
+  position: absolute;
+  right: 320px;
+}
+.container .sidebar .middle .img4{
+  position: absolute;
+  right: 290px;
+}
+.container .sidebar .middle .img5{
+  position: absolute;
+  right: 260px;
+}
+/* Span */
+.container .sidebar .middle span{
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  position: absolute;
+  right: 2rem;
+}
+/* Down Side Bar */
+.container .sidebar .down {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 420px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 9rem;
+  right: 7rem
+}
+/* Stars */
+.container .sidebar .down .img1{
+  position: absolute;
+  right: 370px;
+}
+.container .sidebar .down .img2{
+  position: absolute;
+  right: 340px;
+}
+.container .sidebar .down .img3{
+  position: absolute;
+  right: 310px;
+}
+.container .sidebar .down .img4{
+  position: absolute;
+  right: 280px;
+}
+.container .sidebar .down .img5{
+  position: absolute;
+  right: 250px;
+}
+/* Span */
+.container .sidebar .down span{
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  position: absolute;
+  right: 2rem;
+}
+/* Cards */
+.container .cards .coltoncard{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 320px;
+  position: absolute;
+  left: 160px;
+  top: 270px;
+}
+.container .cards .coltoncard .header{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.container .cards .coltoncard img{
+  width: 35px;
+  border-radius: 50%;
+  margin: 2rem 0 0 2rem;
+}
+.container .cards .coltoncard .nameVerified{
+  margin: 2rem 0 0 0 ;
+}
+.container .cards .coltoncard .nameVerified .name{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.container .cards .coltoncard .nameVerified .verified{
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+}
+.container .coltoncard p{
+  color: white;
+  margin: 1.5rem 1.5rem 1.5rem 2rem;
+  font-size: 15px;
+  line-height: 1.2rem;
+}
+
+
+.container .cards .irenecards{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 320px;
+  position: absolute;
+  left: 500px;
+  top: 290px;
+}
+.container .cards .irenecards .header{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.container .cards .irenecards img{
+  width: 35px;
+  border-radius: 50%;
+  margin: 2rem 0 0 2rem;
+}
+.container .cards .irenecards .nameVerified{
+  margin: 2rem 0 0 0 ;
+}
+.container .cards .irenecards .nameVerified .name{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.container .cards .irenecards .nameVerified .verified{
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+}
+.container .irenecards p{
+  color: white;
+  margin: 1.5rem 2.5rem 1.5rem 2rem;
+  font-size: 15px;
+  line-height: 1.2rem;
+}
+
+
+.container .cards .annecards{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 320px;
+  position: absolute;
+  left: 840px;
+  top: 310px;
+}
+.container .cards .annecards .header{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.container .cards .annecards img{
+  width: 35px;
+  border-radius: 50%;
+  margin: 2rem 0 0 2rem;
+}
+.container .cards .annecards .nameVerified{
+  margin: 2rem 0 0 0 ;
+}
+.container .cards .annecards .nameVerified .name{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.container .cards .annecards .nameVerified .verified{
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+}
+.container .annecards p{
+  color: white;
+  margin: 1.5rem 2rem 1.5rem 2rem;
+  font-size: 15px;
+  line-height: 1.2rem;
+}
